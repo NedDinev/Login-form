@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Oxygen");
+
+body {
+  background: #927057;
+  color: #ffffff;
+  padding: 20px;
+  font-family: "Oxygen";
+}
+
+.user_image {
+  width: 8%;
+  margin-left: 45%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  border: 5px solid #d5c395;
+}
+
+.triangle {
+  position: absolute;
+  top: 23%;
+  right: 49%;
+}
+
+main {
+  background-color: #d5c395;
+  width: 28%;
+  margin: auto;
+  text-align: center;
+  padding: 45px 0 70px 0;
+}
+
+h2 {
+  text-align: left;
+  margin-left: 68px;
+}
+
+.name_form {
+  background: url(images/user.png) no-repeat scroll 7px 7px;
+  padding-left: 30px;
+}
+
+.pass_form {
+  background: url(images/pass.png) no-repeat scroll 7px 7px;
+  padding-left: 30px;
+}
+
+.name_form,
+.pass_form {
+  height: 35px;
+  width: 350px;
+  background-color: #efe1c4;
+  border: 1px solid #efe1c4;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-left: 35px;
+}
+
+.submit {
+  width: 385px;
+  height: 40px;
+  border: 1px solid #927057;
+  border-radius: 5px;
+  background-color: #927057;
+  color: #d5c395;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+p {
+  text-align: center;
+  color: #d5c395;
+}
