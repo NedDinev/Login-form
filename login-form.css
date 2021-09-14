@@ -17,7 +17,7 @@ body {
 
 .triangle {
   position: absolute;
-  top: 23%;
+  top: 22%;
   right: 49%;
 }
 
@@ -46,8 +46,8 @@ h2 {
 
 .name_form,
 .pass_form {
-  height: 35px;
-  width: 350px;
+  height: 30px;
+  width: 65%;
   background-color: #efe1c4;
   border: 1px solid #efe1c4;
   border-radius: 5px;
@@ -56,7 +56,7 @@ h2 {
 }
 
 .submit {
-  width: 385px;
+  width: 72%;
   height: 40px;
   border: 1px solid #927057;
   border-radius: 5px;
@@ -64,6 +64,7 @@ h2 {
   color: #d5c395;
   font-size: 20px;
   font-weight: bolder;
+  cursor: pointer;
 }
 
 p {
